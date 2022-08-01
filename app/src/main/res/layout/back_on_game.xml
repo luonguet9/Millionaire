@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/content_dialog"
+    android:layout_margin="2dp"
+    android:layout_width="300dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:text="Bạn có chắc chắn muốn hủy chơi?"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textColor="@color/text" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="7dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/yes"
+            android:layout_width="75dp"
+            android:layout_height="30dp"
+            android:text="Đúng vậy"
+            android:background="@drawable/answer_choose"
+            android:layout_weight="1"
+            android:textColor="#fff"
+            android:textSize="10sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp" />
+
+        <Button
+            android:id="@+id/no"
+            android:layout_width="75dp"
+            android:layout_height="30dp"
+            android:text="Chơi tiếp"
+            android:background="@drawable/answer_choose"
+            android:layout_weight="1"
+            android:textSize="10sp"
+            android:textColor="#fff"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Millionaire</string>
+    <string name="sansang">Sẵn sàng</string>
+    <string name="huy">Huỷ</string>
+    <string name="finish1">Bạn đã dành được </string>
+    <string name="finish2">Cảm ơn bạn đã đến với chúng tôi và chúc bạn thành công trong cuộc sống !!!</string>
+    <string name="batdau">Bạn sẽ phải vượt qua 15 câu hỏi của chương trình. Mỗi câu hỏi có 30 giây để bạn trả lời.
+    Có 3 mốc rất quan trọng là câu hỏi thứ 5, 10 và 15. Nếu trả lời sai câu hỏi, bạn sẽ chỉ nhận được số tiền tương ứng với mốc câu hỏi bạn đã trả lời được.
+     </string>
+    <string name="ok">OK</string>
+    <string name="tienthuong1">Câu 1: 200.000 VNĐ\nCâu 2: 500.000 VNĐ\nCâu 3: 1.000.000 VNĐ\nCâu 4: 2.000.000 VNĐ</string>
+    <string name="tienthuong2">Câu 6: 8.000.000 VNĐ\nCâu 7: 150.000.000 VNĐ\nCâu 8: 20.000.000 VNĐ\nCâu 9: 30.000.000 VNĐ</string>
+    <string name="tienthuong3">Câu 11: 70.000.000 VNĐ\nCâu 12: 100.000.000 VNĐ\nCâu 13: 150.000.000 VNĐ\nCâu 14: 200.000.000 VNĐ</string>
+</resources>
+
